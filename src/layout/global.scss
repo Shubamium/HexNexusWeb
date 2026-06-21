@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+:root {
+  --purp: #b301ea;
+  --blue: #519fd7;
+  --fontE: "Exo 2", sans-serif;
+  --fontD: "DM Sans";
+}
+html {
+  font-family: var(--fontE);
+  max-width: 100vw;
+  overflow-x: clip;
+}

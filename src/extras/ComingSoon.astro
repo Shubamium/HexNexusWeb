@@ -1,0 +1,30 @@
+---
+import './comingSoon.scss';
+import Image from 'astro/components/Image.astro';
+import bg from '@/assets/b/bg-dimmed.png';
+import construct from '@/assets/g/construct.png';
+---
+
+<section id="coming-soon">
+	<Image src={bg} alt={''} class={'bgfull'}></Image>
+	<div class="panel">
+	<Image src={construct} alt={''} class={'construct'}></Image>
+	<div class="underconst">
+		<img src="/constructing.svg" alt="">
+		<h2>WEBSITES UNDER CONSTRUCTION</h2>
+		<img src="/constructing.svg" alt="">
+	</div>
+		<div class="center-title">
+			<div class="diamond p"></div>
+			<h1>HEX NEXUS</h1>
+			<div class="diamond b"></div>
+		</div>
+
+		<div class="desc">
+			<p>Hex Nexus is a <u>creator-first platform</u> designed to bring the <strong>VTuber community</strong> together in one place. Rather than replacing existing platforms, Hex Nexus connects them. making it easier for fans to discover new creators, follow their favorite VTubers across multiple platforms, and stay connected with the communities they love.  Built for creators, fans, agencies, and industry partners, Hex Nexus serves as a central hub for discovery, networking, and growth. 
+</p>
+<p>Whether you're a fan searching for your next favorite VTuber or a creator looking to expand your reach, Hex Nexus helps bridge the gaps between platforms and make the VTuber ecosystem <strong>more connected than ever before.</strong></p>
+		</div>
+		<img src="/cms.png" alt="" class="cms">
+	</div>
+</section>
